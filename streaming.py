@@ -22,7 +22,7 @@ def getSparkSessionInstance(sparkConf):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: ./virtual-env/bin/spark-submit streaming.py <hostname> <port>", file=sys.stderr)
+        print("Usage: ./virtualenv/bin/spark-submit streaming.py <hostname> <port>", file=sys.stderr)
         sys.exit(-1)
     
     sc = SparkContext(appName="PythonStreaming")
