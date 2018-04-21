@@ -18,7 +18,7 @@
 ## How to run
 * Build machine learning model:
   
-  You can build the decision tree or the random forest model. Note that you have to delete the model/ directory everytime you want to build a new one.<br><br>
+  You can build the decision tree or the random forest model. **Note that you have to delete the model/ directory everytime you want to build a new one.**<br><br>
   To build the decision tree model:
   ```bash
   python ml/decision_trees.py
